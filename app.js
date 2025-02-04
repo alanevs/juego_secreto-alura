@@ -1,4 +1,4 @@
-let numeroMinimo=parseInt(prompt("indique el numero minimero para el numero aleatorio"))
+let numeroMinimo=parseInt(prompt("indique el numero minimo para el numero aleatorio"))
 let numeroMaximo=parseInt(prompt("indique el numero maximo para el numero aleatorio"))
 let intentos=0;
 let numeroSecreto= 0;
