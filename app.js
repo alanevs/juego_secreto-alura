@@ -6,7 +6,7 @@ let listaNumeroSortedos=[];
  
 function generarNumeroSecreto()
 {
-    let numeroGenerado = Math.floor(Math.random()*numeroMaximo)+numeroMinimo;
+    let numeroGenerado = Math.floor(Math.random()*(numeroMaximo-numeroMinimo+1)+numeroMinimo;
     console.log(numeroGenerado);
     console.log(listaNumeroSortedos);
     if(listaNumeroSortedos.length == numeroMaximo)
